@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Page - GitHub Issues",
+    "description": "Loads the GitHub Issues page by default in new tabs.",
+    "version": "0.1",
+
+    "author": "Merijn Verstraaten",
+
+   "chrome_url_overrides": { "newtab": "newtab.html" },
+   "permissions": [ "https://github.com/", "https://*.github.com/" ]
+}
