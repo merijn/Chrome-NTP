@@ -12,6 +12,6 @@ xhr.onload = function() {
 
     document.URL = this.responseXML.URL;
 }
-xhr.open("GET", "https://github.com/issues");
+xhr.open("GET", "https://github.com/issues/assigned/");
 xhr.responseType = "document";
 xhr.send();

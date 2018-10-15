@@ -7,5 +7,6 @@
     "author": "Merijn Verstraaten",
 
    "chrome_url_overrides": { "newtab": "newtab.html" },
-   "permissions": [ "https://github.com/", "https://*.github.com/" ]
+   "permissions": [ "https://github.com/", "https://*.github.com/" ],
+   "content_security_policy": "script-src 'self' https://assets-cdn.github.com; object-src 'self'"
 }
